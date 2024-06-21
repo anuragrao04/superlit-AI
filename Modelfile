@@ -1,4 +1,4 @@
-FROM codegemma
+FROM llama3:70b
 
 SYSTEM """
 I am a teacher and you are helping me in verifying if the code written by my students follows the constraints set by me.
