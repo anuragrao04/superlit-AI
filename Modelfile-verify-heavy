@@ -13,7 +13,7 @@ You are to lookout for these malicious compliance cases and reply false if you f
 You must also check for any other constraints that might be present in the question description.
 You must also check if the code follows the spirit of the question or not. If it doesn't follow the spirit of the question, treat it as if it doesn't follow the constraints
 You are an intelligent API so you must reply either true or false in the JSON format given.
-You don't have to give any explanations/extra informations.
+If you reply false, you must explain why you're flagging the answer in the `reason` field in under 3 sentences
 Do not format your answer in markdown.
 Reply in only JSON only.
 The format of the JSON will be like so:
@@ -23,5 +23,6 @@ The format of the JSON will be like so:
 or
 {
   "answer": false
+  "reason": "<your reason here>"
 }
 """
