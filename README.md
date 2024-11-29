@@ -4,16 +4,16 @@ This repository is one of three repositories that make up superlit's code base. 
 
 ## Ollama
 
-- The files in this repository are mostly, if not all, Modelfiles made for [ollama](https://ollama.com/)
 - It is a run time for running large language models locally
 - You can customize these LLMs using Modelfiles.
-- It sets up an API for communicating with these large language models and that's what superlit uses.
+- The files in this repository are mostly, if not all, Modelfiles made for [ollama](https://ollama.com/)
+- Ollama sets up an API for communicating with these large language models and that's what superlit uses.
 
 ## Setup
 
 - Install [ollama](https://ollama.com/)
 - Run `ollama create superlit-AI -f Modelfile-generic`
-- Go to the [backend](https://github.com/anuragrao04/superlit-backend) and [frontend](https://github.com/anuragrao04/superlit-frontend) and follow the setup instructions there
+- Go to the [backend](https://github.com/anuragrao04/superlit-backend) and [frontend](https://github.com/anuragrao04/superlit-frontend) repositories and follow the setup instructions there
 - The backend, frontend and ollama all can be running on different machines, you just have to specify the URLs of these machines in the `.env` files of backend and frontend repos
 
 ## Some Context On Other Files Present Here
